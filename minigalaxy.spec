@@ -10,6 +10,7 @@ Source0:        https://github.com/sharkwouter/minigalaxy/archive/%{version}/%{n
 BuildRequires:  desktop-file-utils
 BuildRequires:  python-devel
 BuildRequires:  pkgconfig(pygobject-3.0)
+BuildRequires:  python3egg(setuptools)
 BuildRequires:  python3dist(requests)
 Requires:       webkit2
  
