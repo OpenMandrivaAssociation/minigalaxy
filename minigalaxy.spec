@@ -33,6 +33,7 @@ games.
 %{_bindir}/%{name}
 %{_datadir}/%{name}/
 %{_datadir}/applications/*.desktop
-#{_datadir}/pixmaps/*.png
+%{_iconsdir}/hicolor/192x192/apps/minigalaxy.png
 %{python_sitelib}/%{name}/
 %{python_sitelib}/Minigalaxy-*.egg-info/
+%{_datadir}/metainfo/minigalaxy.metainfo.xml
