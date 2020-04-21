@@ -35,5 +35,5 @@ games.
 %{_datadir}/applications/*.desktop
 %{_iconsdir}/hicolor/*x*/apps/io.github.sharkwouter.Minigalaxy.png
 %{python_sitelib}/%{name}/
-%{python_sitelib/minigalaxy-0.9.4-py3.8.egg-info/*
+%{python_sitelib}/minigalaxy-0.9.4-py3.8.egg-info/*
 %{_datadir}/metainfo/io.github.sharkwouter.Minigalaxy.metainfo.xml
