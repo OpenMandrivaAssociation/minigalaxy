@@ -33,8 +33,6 @@ games.
 %{_bindir}/%{name}
 %{_datadir}/%{name}/
 %{_datadir}/applications/*.desktop
-#{_iconsdir}/hicolor/*x*/apps/minigalaxy.png
-%{python_sitelib}/%{name}/
-#{python_sitelib}/Minigalaxy-*.egg-info/
-#{python_sitelib}/tests/*
-#{_datadir}/metainfo/minigalaxy.metainfo.xml
+%{_iconsdir}/hicolor/*x*/apps/io.github.sharkwouter.Minigalaxy.png
+%{python_sitelib}/%{name}/*
+%{_datadir}/metainfo/io.github.sharkwouter.Minigalaxy.metainfo.xml
