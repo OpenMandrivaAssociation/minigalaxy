@@ -1,5 +1,5 @@
 Name:           minigalaxy
-Version:        0.9.4
+Version:        1.0.0
 Release:        1
 Summary:        Unofficial GOG client for Linux
 BuildArch:      noarch
@@ -35,5 +35,5 @@ games.
 %{_datadir}/applications/*.desktop
 %{_iconsdir}/hicolor/*x*/apps/io.github.sharkwouter.Minigalaxy.png
 %{python_sitelib}/%{name}/
-%{python_sitelib}/minigalaxy-0.9.4-py3.8.egg-info/*
+%{python_sitelib}/minigalaxy-%{version}-py*.*.egg-info/*
 %{_datadir}/metainfo/io.github.sharkwouter.Minigalaxy.metainfo.xml
