@@ -12,6 +12,7 @@ BuildRequires:  python-devel
 BuildRequires:  pkgconfig(pygobject-3.0)
 BuildRequires:  python3egg(setuptools)
 BuildRequires:  python3dist(requests)
+BuildRequires:  python3dist(pip)
 Requires:       webkit2
  
 %description
