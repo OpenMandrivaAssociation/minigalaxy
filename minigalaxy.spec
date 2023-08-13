@@ -1,6 +1,6 @@
 Name:           minigalaxy
-Version:        1.2.2
-Release:        2
+Version:        1.2.5
+Release:        1
 Summary:        Unofficial GOG client for Linux
 BuildArch:      noarch
 License:        GPLv3+
