@@ -6,7 +6,8 @@ BuildArch:      noarch
 License:        GPLv3+
 URL:            https://github.com/sharkwouter/minigalaxy
 Source0:        https://github.com/sharkwouter/minigalaxy/archive/%{version}/%{name}-%{version}.tar.gz
- 
+
+BuildRequires:  gettext
 BuildRequires:  desktop-file-utils
 BuildRequires:  python-devel
 BuildRequires:  pkgconfig(pygobject-3.0)
