@@ -1,3 +1,7 @@
+# (2024-02-25) don't require 'typelib(WebKit2) = 4.0'w
+# because 'typelib(WebKit2) = 4.1' is used.
+%global __requires_exclude  ^typelib\\(WebKit2\\) = 4.0$
+
 Name:           minigalaxy
 Version:        1.2.6
 Release:        2
@@ -14,11 +18,11 @@ BuildRequires:  pkgconfig(pygobject-3.0)
 BuildRequires:  python3egg(setuptools)
 BuildRequires:  python3dist(requests)
 BuildRequires:  python3dist(pip)
-Requires:       webkit2
+Requires:       webkit4.1
  
 %description
-Python 3 based, simple and unofficial GOG client for Linux that lets you download and play your GOG Linux
-games.
+Python 3 based, simple and unofficial GOG client for Linux
+that lets you download and play your GOG Linux games.
  
 %prep
 %autosetup -n %{name}-%{version} -p1
