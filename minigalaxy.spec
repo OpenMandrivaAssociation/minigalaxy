@@ -3,8 +3,8 @@
 %global __requires_exclude  ^typelib\\(WebKit2\\) = 4.0$
 
 Name:           minigalaxy
-Version:        1.2.6
-Release:        2
+Version:        1.3.0
+Release:        1
 Summary:        Unofficial GOG client for Linux
 BuildArch:      noarch
 License:        GPLv3+
