@@ -3,7 +3,7 @@
 %global __requires_exclude  ^typelib\\(WebKit2\\) = 4.0$
 
 Name:           minigalaxy
-Version:        1.3.1
+Version:        1.3.2
 Release:        1
 Summary:        Unofficial GOG client for Linux
 BuildArch:      noarch
