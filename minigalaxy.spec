@@ -15,9 +15,9 @@ BuildRequires:  gettext
 BuildRequires:  desktop-file-utils
 BuildRequires:  python-devel
 BuildRequires:  pkgconfig(pygobject-3.0)
-BuildRequires:  python3egg(setuptools)
-BuildRequires:  python3dist(requests)
-BuildRequires:  python3dist(pip)
+BuildRequires:  python%{pyver}dist(setuptools)
+BuildRequires:  python%{pyver}dist(requests)
+BuildRequires:  python%{pyver}dist(pip)
 Requires:       webkit4.1
  
 %description
