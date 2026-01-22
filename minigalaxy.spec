@@ -42,5 +42,4 @@ that lets you download and play your GOG Linux games.
 %{_iconsdir}/hicolor/*x*/apps/io.github.sharkwouter.Minigalaxy.png
 %{python_sitelib}/%{name}/
 %{python_sitelib}/minigalaxy-%{version}.dist-info
-%{python_sitelib}/tests/download/
 %{_datadir}/metainfo/io.github.sharkwouter.Minigalaxy.metainfo.xml
