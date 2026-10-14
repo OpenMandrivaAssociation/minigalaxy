@@ -4,7 +4,7 @@
 
 Name:           minigalaxy
 Version:        1.4.2
-Release:        1
+Release:        2
 Summary:        Unofficial GOG client for Linux
 BuildArch:      noarch
 License:        GPLv3+
@@ -13,7 +13,7 @@ Source0:        https://github.com/sharkwouter/minigalaxy/archive/%{version}/%{n
 
 BuildRequires:  gettext
 BuildRequires:  desktop-file-utils
-BuildRequires:  python-devel
+BuildRequires:  pkgconfig(python3)
 BuildRequires:  pkgconfig(pygobject-3.0)
 BuildRequires:  python%{pyver}dist(setuptools)
 BuildRequires:  python%{pyver}dist(requests)
